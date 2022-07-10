@@ -9,3 +9,7 @@ Independesk helps you to keep track of your company&#039;s New Work process. ✓
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
 
+## What's Run
+- Laravel
+- Redis
+- MariaDB
