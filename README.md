@@ -1,4 +1,4 @@
-<p align="center"><a href="https://independesk.com/en-de/" target="_blank"><img src="https://independesk.com/wp-content/uploads/independesk_main_whitegreen.svg" width="400"></a></p>
+<p align="center"><a href="https://independesk.com/en-de/" target="_blank"><img src="https://independesk.com/wp-content/uploads/200824_PM.png" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
