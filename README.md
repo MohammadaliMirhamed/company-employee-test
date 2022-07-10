@@ -10,7 +10,7 @@ Independesk helps you to keep track of your company&#039;s New Work process. ✓
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
 ### Notice:
-Organization structure has provided as seeder, no need sql file
+Organization structure has been provided as ```Laravel Seed```, no need for ```SQL``` file
 
 ## Routes
 | Url                          | About                      | Auth |
@@ -30,3 +30,5 @@ Register as user befor going to ```management``` routes
 - Laravel
 - Redis
 - MariaDB
+
+## Best Regards
