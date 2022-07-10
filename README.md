@@ -5,7 +5,7 @@
 Independesk helps you to keep track of your company&#039;s New Work process. ✓ Individual hybrid work concept ✓ Coworking ✓ Management of own workplaces
 
 ## Quick Start
-- create a copy from .env.example to .env
+- Create a copy from ```.env.example``` name it as ```.env```
 - ```composer install```
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
@@ -13,13 +13,16 @@ Independesk helps you to keep track of your company&#039;s New Work process. ✓
 ## Routes
 | Url                          | About                      | Auth |
 |------------------------------|----------------------------|------|
-| ```/```                      | See Organization Structure | no   |
+| ```/```                      | See Organization Structure | No   |
 | ```/management/employee```   | Manage Employees           | Yes  |
 | ```/management/division```   | Manage Divisions           | Yes  |
 | ```/management/department``` | Manage Departments         | Yes  |
 | ```/management/team```       | Manage Teams               | Yes  |
 | ```/management/login```      | Login User                 | No   |
 | ```/management/register```   | Register User              | No   |
+
+### Notice:
+Register as user befor going to ```management``` routes
 
 ## What's Run
 - Laravel
