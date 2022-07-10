@@ -10,7 +10,7 @@ Independesk helps you to keep track of your company&#039;s New Work process. ✓
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
 ### Notice:
-Organization structure provide as seeder no need sql file
+Organization structure has provided as seeder, no need sql file
 
 ## Routes
 | Url                          | About                      | Auth |
