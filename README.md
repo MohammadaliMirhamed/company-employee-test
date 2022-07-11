@@ -20,8 +20,8 @@ Organization structure has been provided as ```Laravel Seed```, no need for ```S
 | ```/management/division```   | Manage Divisions           | Yes  |
 | ```/management/department``` | Manage Departments         | Yes  |
 | ```/management/team```       | Manage Teams               | Yes  |
-| ```/management/login```      | Login User                 | No   |
-| ```/management/register```   | Register User              | No   |
+| ```/login```                 | Login User                 | No   |
+| ```/register```              | Register User              | No   |
 
 ### Notice:
 Register as user befor going to ```management``` routes
