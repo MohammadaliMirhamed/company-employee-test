@@ -30,3 +30,4 @@ Register as user befor going to ```management``` routes
 - Laravel
 - Redis
 - MariaDB
+- Docker
