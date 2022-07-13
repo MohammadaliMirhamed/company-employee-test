@@ -46,6 +46,7 @@ then add your user's email in ``` gate ``` method:
         });
     }
 ```
+after that open the ```/telescope``` route to monitor your application.
 
 ## What's Run
 - Laravel
