@@ -7,6 +7,7 @@ Independesk helps you to keep track of your company&#039;s New Work process. ✓
 ## Quick Start
 - Create a copy from ```.env.example``` and name it as ```.env```
 - ```composer install```
+- ``` npm install ```
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
 - then the application serve over the ```http://localhost:8000```
