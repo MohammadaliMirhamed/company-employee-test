@@ -26,8 +26,30 @@ Organization structure has been provided as ```Laravel Seed```, no need for ```S
 ### Notice:
 Register as user befor going to ```management``` routes
 
+## Telescope
+after registration as user go to ``` independesk/app/Providers/TelescopeServiceProvider.php ```
+then add your user's email in ``` gate ``` method:
+```
+ /**
+     * Register the Telescope gate.
+     *
+     * This gate determines who can access Telescope in non-local environments.
+     *
+     * @return void
+     */
+    protected function gate()
+    {
+        Gate::define('viewTelescope', function ($user) {
+            return in_array($user->email, [
+                'name@example.com',
+            ]);
+        });
+    }
+```
+
 ## What's Run
 - Laravel
+- Telescope (Application monitoring)
 - Redis
 - MariaDB
 - Docker
