@@ -5,10 +5,11 @@
 Independesk helps you to keep track of your company&#039;s New Work process. ✓ Individual hybrid work concept ✓ Coworking ✓ Management of own workplaces
 
 ## Quick Start
-- Create a copy from ```.env.example``` name it as ```.env```
+- Create a copy from ```.env.example``` and name it as ```.env```
 - ```composer install```
 - ```./vendor/bin/sail up```
 - ```./vendor/bin/sail artisan migrate --seed```
+- then the application serve over the ```http://localhost:8000```
 ### Notice:
 Organization structure has been provided as ```Laravel Seed```, no need for ```SQL``` file
 
