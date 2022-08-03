@@ -1,9 +1,3 @@
-<p align="center"><a href="https://independesk.com/en-de/" target="_blank"><img src="https://independesk.com/wp-content/uploads/200824_PM.png" width="400"></a></p>
-
-## About Independesk
-
-Independesk helps you to keep track of your company&#039;s New Work process. ✓ Individual hybrid work concept ✓ Coworking ✓ Management of own workplaces
-
 ## Quick Start
 - Create a copy from ```.env.example``` and name it as ```.env```
 - ```composer install```
