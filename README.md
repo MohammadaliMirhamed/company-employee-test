@@ -23,7 +23,7 @@ Organization structure has been provided as ```Laravel Seed```, no need for ```S
 Register as user befor going to ```management``` routes
 
 ## Telescope
-after registration as user go to ``` independesk/app/Providers/TelescopeServiceProvider.php ```
+after registration as user go to ```/app/Providers/TelescopeServiceProvider.php ```
 then add your user's email in ``` gate ``` method:
 ```
  /**
